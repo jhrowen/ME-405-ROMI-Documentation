@@ -111,4 +111,36 @@ The Final Path task contains the logic needed to navigate the final obstacle cou
 
 Located below is our multitasking structure for our final deliverable codebase. It includes all Shares between tasks as dotted lines and all Queues as solid lines. Arrows into or away from the tasks indicate whether the task reads or writes the Queue/Share. It is possible for a task to both read and write a Queue/Share. Queues and Shares are labeled at each task for ease of viewing. This is most definitely not the most efficient way to write the functionality we desired but it worked to our satisfaction. We opted for an approach of making many smaller tasks to perform specific duties instead of large blanket tasks. This was intended to make tasks run quicker and prevent overlap in the scheduler.
 
+# Cooperative Task Diagram
+
 <img width="1172" height="2108" alt="TaskDiagram drawio" src="https://github.com/user-attachments/assets/017db014-2a1c-4cff-b558-9fae765ea329" />
+
+# Task State Transition Diagrams
+
+## Final_Path
+
+
+
+## task_estimate_state
+
+
+
+## task_follow_line
+
+
+
+## task_motor
+
+
+
+## task_user
+
+
+
+## task_recover
+
+
+
+## task_pose_control
+
+
