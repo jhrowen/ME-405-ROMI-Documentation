@@ -32,6 +32,7 @@ The ROMI Pin Configuration excel spreadsheet located in our codebase repository 
 Below is our complete hardware list, links are included below where applicable for specific parts. View the video above for exact assembly, in order to get the line sensor to the ideal 5mm distance from the ground we had to add a few nuts between the standoff and the top of the line sensor. A nut was also added right below the head of the screw to prevent the screws from being to close to the ground. 
 
 Complete Hardware List:     <br>
+
 4	M2.5 x 8mm Standoff        <br>                                                                                                
 4	M2.5 x 10mm Standoff        <br>                                                                                               
 4	M2.5 x 30mm Standoff          <br>                                                                                             
@@ -43,8 +44,10 @@ Complete Hardware List:     <br>
 1	Acrylic Romi-to-Shoe Adapter (convenient but not necessary, custom part)         <br>                                          
 1	Modified Shoe of Brian (w/o Bead or Resistors) (documentation for shoe of brian can be located online)  <br>                   
 1	Nucleo L476RG    <br>                                                                                                          
-1	USB-A to USB-Mini B Cable  <br>
+1	USB-A to USB-Mini B Cable <br> 
+
 Dupont Style Cables <br>
+
 Line sensor: https://www.pololu.com/product/4245 <br>                                                                         
 Nylon Spacers for Line Sensor Mounting: https://www.pololu.com/product/1976  <br>                                                
 Screws for Line Sensor Mounting: https://www.pololu.com/product/1958   <br>                                                      
