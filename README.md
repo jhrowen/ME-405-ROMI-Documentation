@@ -1,8 +1,7 @@
 # ME-405-ROMI-Documentation
 This repository stores the code for our romi project that was developed over the 10 weeks of the Winter 2026 quarter at California Polytechnic State University, San Luis Obispo. 
 
-Our entire codebase and useful additional files are located here: 
-
+Our entire codebase and useful additional files are located here:
 https://github.com/Quig-Beep/ME405-Project-Documentation.git
 
 Documentation for all code we were given for this project can be located below in Dr. Ridgleys own Github repository:
