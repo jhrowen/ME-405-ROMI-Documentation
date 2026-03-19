@@ -64,3 +64,5 @@ Located below is our multitasking structure for our final deliverable codebase. 
 
 <img width="1172" height="2108" alt="TaskDiagram drawio" src="https://github.com/user-attachments/assets/017db014-2a1c-4cff-b558-9fae765ea329" />
 
+To help Romi better navigate its environment, we wanted to have it be able to locate itself in X Y space as well as recognize its heading. To achieve this we modeled Romi's dynamics and generated a state space model which can be viewed below. This state space model was converted into a discretized state observer to predict Romi's future state. We then could use this future state to assist in closed loop control on Romi's position as it moved around the track.
+<img width="430" height="638" alt="image" src="https://github.com/user-attachments/assets/25a26feb-0f04-480e-8c7a-9bd3322af2ec" />
