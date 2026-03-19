@@ -66,3 +66,25 @@ Located below is our multitasking structure for our final deliverable codebase. 
 
 To help Romi better navigate its environment, we wanted to have it be able to locate itself in X Y space as well as recognize its heading. To achieve this we modeled Romi's dynamics and generated a state space model which can be viewed below. This state space model was converted into a discretized state observer to predict Romi's future state. We then could use this future state to assist in closed loop control on Romi's position as it moved around the track.
 <img width="430" height="638" alt="image" src="https://github.com/user-attachments/assets/25a26feb-0f04-480e-8c7a-9bd3322af2ec" />
+
+# Code architecture and Task Design Choices
+
+task_generate_curve and task_follow_path
+
+In an attempt to create a very robust method of navigation when not following a line, we created a cubic spline curve generator and an accompanying task that recalculates ROMIs motor setpoints and target trajectory periodically. The curve generator uses parametrically defined points in x and y to compute coefficients a, b, c and d. These coefficients are fed the follow path task, which implements feed forward and feedback control to update motor setpoint values. We were unable to get these tasks to work reliably, and fell back to using a "point and shoot" pose controller to navigate planned trajectories.
+
+task_pose_control
+
+The pose controller task is the working, albeit less robust successor to the feed forward spline generator tasks. This task intakes locally defined x and y coordinates and computes a target heading. It then runs proportional control in order to drive ROMI toward the desired location. When ROMI gets within a desired tolerance, it then orients itself to a desired final heading position, described relative to the initial heading. The pose controller uses the estimated x and y position of ROMI output by our state estimator as the current position.
+
+task_follow_line
+
+Task follow line uses proportional control to steer ROMI toward the centroid of a line by computing changes to a motor setpoint. The line sensor calculates a the centroid relative to the 5 element reflectance sensor array.
+
+task_crash and task_recovery
+
+Task crash uses an external interrupt to detect when ROMI has hit an object. This interrupt sets a flag that causes task_recovery to enter an active state. Task recovery causes ROMI to back up and then rotate until it has found a line to follow. When a line has been found, task recovery sets a flag indicating it has completed and resets its internal state.
+
+Final_Path
+
+The Final Path task contains the logic needed to navigate the final obstacle course. Upon meeting certain conditions it transitions states to move to the next movement sequence until the course has been completed. Upon completion Final Task resets its internal state and variables and waits for a user button press to start running the course again.
