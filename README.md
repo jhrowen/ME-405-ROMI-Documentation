@@ -60,3 +60,5 @@ Rechargable Batteries: https://www.amazon.com/dp/B0CFWXSKDV?ref=ppx_yo2ov_dt_b_f
 HC-05 Blutooth Module (Unused): https://www.amazon.com/dp/B01MQKX7VP   <br>                                                      
 Adafruit BNO055 Absolute Orientation Sensor: https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview <br> 
 
+<img width="1172" height="2108" alt="TaskDiagram drawio" src="https://github.com/user-attachments/assets/017db014-2a1c-4cff-b558-9fae765ea329" />
+
