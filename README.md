@@ -29,7 +29,9 @@ The ROMI Pin Configuration excel spreadsheet located in our codebase repository 
 
 [![Video Title](https://img.youtube.com/vi/7AZLOIbpHas/0.jpg)](https://www.youtube.com/watch?v=7AZLOIbpHas)
 
-Below is our complete hardware list, links are included below where applicable for specific parts:                           
+Below is our complete hardware list, links are included below where applicable for specific parts. View the video above for exact assembly, in order to get the line sensor to the ideal 5mm distance from the ground we had to add a few nuts between the standoff and the top of the line sensor. A nut was also added right below the head of the screw to prevent the screws from being to close to the ground. 
+
+Complete Hardware List:
 4	M2.5 x 8mm Standoff                                                                                                        
 4	M2.5 x 10mm Standoff                                                                                                       
 4	M2.5 x 30mm Standoff                                                                                                       
@@ -43,15 +45,15 @@ Below is our complete hardware list, links are included below where applicable f
 1	Nucleo L476RG                                                                                                              
 1	USB-A to USB-Mini B Cable     
 Dupont Style Cables
-Line sensor: https://www.pololu.com/product/4245                                                                            
-Nylon Spacers for Line Sensor Mounting: https://www.pololu.com/product/1976                                                  
-Screws for Line Sensor Mounting: https://www.pololu.com/product/1958                                                         
-Nuts for Line Sensor Mounting: https://www.pololu.com/product/1067    
-Bump Switch: https://www.pololu.com/product/1405                                                                             
-Motor Driver and Power Distriution Board: https://www.pololu.com/product/3543                                                
-Encoder Pair Kit: https://www.pololu.com/product/3542                                                                        
-Romi Chassis Kit: https://www.pololu.com/product/3504                                                                        
-Rechargable Batteries: https://www.amazon.com/dp/B0CFWXSKDV?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1                           
-HC-05 Blutooth Module (Unused): https://www.amazon.com/dp/B01MQKX7VP                                                         
-Adafruit BNO055 Absolute Orientation Sensor: https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview 
+Line sensor: https://www.pololu.com/product/4245 <br>                                                                         
+Nylon Spacers for Line Sensor Mounting: https://www.pololu.com/product/1976  <br>                                                
+Screws for Line Sensor Mounting: https://www.pololu.com/product/1958   <br>                                                      
+Nuts for Line Sensor Mounting: https://www.pololu.com/product/1067  <br>  
+Bump Switch: https://www.pololu.com/product/1405  <br>                                                                           
+Motor Driver and Power Distriution Board: https://www.pololu.com/product/3543 <br>                                               
+Encoder Pair Kit: https://www.pololu.com/product/3542  <br>                                                                      
+Romi Chassis Kit: https://www.pololu.com/product/3504  <br>                                                                      
+Rechargable Batteries: https://www.amazon.com/dp/B0CFWXSKDV?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1 <br>                          
+HC-05 Blutooth Module (Unused): https://www.amazon.com/dp/B01MQKX7VP   <br>                                                      
+Adafruit BNO055 Absolute Orientation Sensor: https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview <br> 
 
