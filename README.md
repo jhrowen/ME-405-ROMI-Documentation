@@ -7,7 +7,7 @@ https://github.com/Quig-Beep/ME405-Project-Documentation.git
 Documentation for all code we were given for this project can be located below in Dr. Ridgleys own Github repository:
 https://github.com/spluttflob/ME405-Support?tab=readme-ov-file
 
-There are a few tabs to navigate on this website. The file list provides a concise list of all of our files for easy viewing.
+There are a few tabs to navigate on this website. Packages and Classes provide information on our files and the structures within. Clicking on a package or class will bring you to a more detailed view of the task. The file list provides a concise list of all of our files for easy viewing.
 
 A video of Romi running the complete course can be viewed below:
 
@@ -81,7 +81,7 @@ task_follow_line
 
 Task follow line uses proportional control to steer ROMI toward the centroid of a line by computing changes to a motor setpoint. The line sensor calculates a the centroid relative to the 5 element reflectance sensor array.
 
-task_crash and task_recovery
+task_crash and task_recover
 
 Task crash uses an external interrupt to detect when ROMI has hit an object. This interrupt sets a flag that causes task_recovery to enter an active state. Task recovery causes ROMI to back up and then rotate until it has found a line to follow. When a line has been found, task recovery sets a flag indicating it has completed and resets its internal state.
 
