@@ -29,19 +29,22 @@ jobs:
         run: doxygen Doxyfile
 
       - name: Disable Jekyll
-        run: touch html/.nojekyll
+        run: touch docs_build/html/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: html
+          path: docs_build/html
 
   deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
 
     steps:
       - name: Deploy to GitHub Pages
