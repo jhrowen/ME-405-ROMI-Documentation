@@ -85,6 +85,7 @@ This state space model was converted into a discretized state observer to predic
 
 <img width="1532" height="168" alt="image" src="https://github.com/user-attachments/assets/ae8a1028-a8ee-41b3-ac7b-a3730be7f8a5" />
 
+From this model we could extrapolate our global X and Y position using the arc lengths traveled by the motors and the heading of Romi.
 
 # Code architecture and Task Design Choices
 
