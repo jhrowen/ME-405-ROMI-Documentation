@@ -7,6 +7,8 @@ https://github.com/Quig-Beep/ME405-Project-Documentation.git
 Documentation for all code we were given for this project can be located below in Dr. Ridgleys own Github repository:
 https://github.com/spluttflob/ME405-Support?tab=readme-ov-file
 
+There are a few tabs to navigate on this website. The file list provides a concise list of all of our files for easy viewing.
+
 A video of Romi running the complete course can be viewed below:
 
 [![Video Title](https://img.youtube.com/vi/zxmrBjntwv4/0.jpg)](https://www.youtube.com/watch?v=zxmrBjntwv4)
@@ -26,6 +28,7 @@ The ROMI Pin Configuration excel spreadsheet located in our codebase repository 
 <img width="843" height="838" alt="WiringDiagram" src="https://github.com/user-attachments/assets/b126c080-8138-42dc-ac5d-6ca469e84e5d" />
 
 [![Video Title](https://img.youtube.com/vi/7AZLOIbpHas/0.jpg)](https://www.youtube.com/watch?v=7AZLOIbpHas)
+
 
 4	M2.5 x 8mm Standoff
 4	M2.5 x 10mm Standoff
