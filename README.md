@@ -15,10 +15,10 @@ A closer look at Romi can also be viewed here:
 
 [![Video Title](https://img.youtube.com/vi/KbessiJycDM/0.jpg)](https://www.youtube.com/watch?v=KbessiJycDM)
 
-Our robot was designed with 4 sensor types to help detect its environment: 
-Quadrature encoders - Read encoder counts with hall effect sensors to detect motor movement
-Internal Measurement Unit - Gave accelerometer and gyroscope data to calculate accurate headings and feed data to a state estimator to infer X and Y position of Romi
-Line Sensor - Read IR reflectance of the ground below romi to determine if it was on top of a line or not
+Our robot was designed with 4 sensor types to help detect its environment:                                                    
+Quadrature encoders - Read encoder counts with hall effect sensors to detect motor movement                                   
+Internal Measurement Unit - Gave accelerometer and gyroscope data to calculate accurate headings and feed data to a state estimator to infer X and Y position of Romi                                                                                   
+Line Sensor - Read IR reflectance of the ground below romi to determine if it was on top of a line or not                     
 Bump Sensor - Simple switch that would trigger an interrupt when closed, alerting Romi that it had hit something
 
 The ROMI Pin Configuration excel spreadsheet located in our codebase repository provides a pinout of our wiring with romi and associated boards. Ideally with the same hardware and this sheet anyone would be able to reproduce our results. The excel sheet also contains links to useful datasheets for the BNO055 IMU, STM board, HC-05 (bluetooth module we did not end up using), and a website for all the pin functionalities on our board. A wiring diagram for Romi can be viewed below, as well as a closeup video of Romis construction:
