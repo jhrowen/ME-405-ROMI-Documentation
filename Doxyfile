@@ -74,8 +74,7 @@ PROJECT_ICON           =
 # entered, it will be relative to the location where Doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = "C:/Users/jakeh/OneDrive - Cal Poly/Quinn Thomas Patterson's files - 405 Quinn and Jake/Term Project/Doxygen"
-
+OUTPUT_DIRECTORY       = docs_build
 # If the CREATE_SUBDIRS tag is set to YES then Doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
 # and will distribute the generated files over these directories. Enabling this
@@ -1026,7 +1025,7 @@ WARN_LOGFILE           =
 # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = "C:/Users/jakeh/OneDrive - Cal Poly/Quinn Thomas Patterson's files - 405 Quinn and Jake/Term Project"
+INPUT                  = .
 
 # This tag can be used to specify the character encoding of the source files
 # that Doxygen parses. Internally Doxygen uses the UTF-8 encoding. Doxygen uses
