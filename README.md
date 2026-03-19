@@ -34,7 +34,7 @@ Bump Sensor - Simple switch that would trigger an interrupt when closed, alertin
 
 The ROMI Pin Configuration excel spreadsheet located in our codebase repository provides a pinout of our wiring with romi and associated boards. Ideally with the same hardware and this sheet anyone would be able to reproduce our results. The excel sheet also contains links to useful datasheets for the BNO055 IMU, STM board, HC-05 (bluetooth module we did not end up using), and a website for all the pin functionalities on our board. A wiring diagram for Romi can be viewed below, as well as a closeup video of Romis construction:
 
-<img width="843" height="838" alt="WiringDiagram" src="https://github.com/user-attachments/assets/b126c080-8138-42dc-ac5d-6ca469e84e5d" />
+<img src="https://github.com/user-attachments/assets/b126c080-8138-42dc-ac5d-6ca469e84e5d" style="max-width: 100%; height: auto;"/>
 
 [![Video Title](https://img.youtube.com/vi/7AZLOIbpHas/0.jpg)](https://www.youtube.com/watch?v=7AZLOIbpHas)
 
@@ -113,34 +113,35 @@ Located below is our multitasking structure for our final deliverable codebase. 
 
 # Cooperative Task Diagram
 
-<img width="1172" height="2108" alt="TaskDiagram drawio" src="https://github.com/user-attachments/assets/017db014-2a1c-4cff-b558-9fae765ea329" />
+<img src="https://github.com/user-attachments/assets/017db014-2a1c-4cff-b558-9fae765ea329" style="max-width: 100%; height: auto;" />
 
 # Task State Transition Diagrams
 
 ## Final_Path
 
-
+<img width="1570" height="441" alt="Final_Path FSM" src="https://github.com/user-attachments/assets/c606c81b-6a73-4862-b335-915e40eab50d" />
 
 ## task_estimate_state
 
-
+<img width="1044" height="362" alt="Estimate_state FSM" src="https://github.com/user-attachments/assets/13500fed-c0c5-4470-8632-254d949f45c8" />
 
 ## task_follow_line
 
-
+<img width="983" height="398" alt="Line Follower FSM" src="https://github.com/user-attachments/assets/933aadd1-2fb6-4a95-a0ff-c9133cdc3e9b" />
 
 ## task_motor
 
-
+<img width="1154" height="504" alt="Motor Task FSM" src="https://github.com/user-attachments/assets/5edf13a7-daaa-4d7b-bfe7-28bc122d3c75" />
 
 ## task_user
 
-
+<img width="1649" height="918" alt="UI Task FSM" src="https://github.com/user-attachments/assets/9ea05b08-3d83-408e-885f-8329492284ec" />
 
 ## task_recover
 
-
+<img width="1215" height="425" alt="Recovery Task FSM" src="https://github.com/user-attachments/assets/77893347-119a-49c9-9861-2b632b715df8" />
 
 ## task_pose_control
 
+<img width="1336" height="436" alt="Pose Controller FSM" src="https://github.com/user-attachments/assets/57ead805-d25f-4852-85e5-c2bf482eab9f" />
 
