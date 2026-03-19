@@ -73,8 +73,18 @@ Adafruit BNO055 Absolute Orientation Sensor: https://learn.adafruit.com/adafruit
 
 # State Estimation
 
-To help Romi better navigate its environment, we wanted to have it be able to locate itself in X Y space as well as recognize its heading. To achieve this we modeled Romi's dynamics and generated a state space model which can be viewed below. This state space model was converted into a discretized state observer to predict Romi's future state. We then could use this future state to assist in closed loop control on Romi's position as it moved around the track.
+To help Romi better navigate its environment, we wanted to have it be able to locate itself in X Y space as well as recognize its heading. To achieve this we modeled Romi's dynamics and generated a state space model which can be viewed below. 
+
 <img width="430" height="638" alt="image" src="https://github.com/user-attachments/assets/25a26feb-0f04-480e-8c7a-9bd3322af2ec" />
+
+This state space model was converted into a discretized state observer to predict Romi's future state. We then could use this future state to assist in closed loop control on Romi's position as it moved around the track.
+
+<img width="524" height="200" alt="image" src="https://github.com/user-attachments/assets/c7a28cdd-65ac-4450-b116-9a420008fd61" />
+
+<img width="338" height="114" alt="image" src="https://github.com/user-attachments/assets/0e920f6a-f801-4a00-8f89-104ddaf4cb9e" />
+
+<img width="1532" height="168" alt="image" src="https://github.com/user-attachments/assets/ae8a1028-a8ee-41b3-ac7b-a3730be7f8a5" />
+
 
 # Code architecture and Task Design Choices
 
