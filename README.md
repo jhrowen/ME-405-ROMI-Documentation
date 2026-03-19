@@ -29,19 +29,17 @@ The ROMI Pin Configuration excel spreadsheet located in our codebase repository 
 
 [![Video Title](https://img.youtube.com/vi/7AZLOIbpHas/0.jpg)](https://www.youtube.com/watch?v=7AZLOIbpHas)
 
-
-4	M2.5 x 8mm Standoff
-4	M2.5 x 10mm Standoff
-4	M2.5 x 30mm Standoff
-4	M2.5 x 6mm Socket Head Cap Screw
-4	M2.5 x 8mm Socket Head Cap Screw
-4	M2.5 x 10mm Socket Head Cap Screw
-8	M2.5 Nylon Lock Nuts
-8	M2.5 Nylon Washer
-1	Acrylic Romi-to-Shoe Adapter
-1	BNO055 IMU Breakout Board
-1	Modified Shoe of Brian (w/o Bead or Resistors)
-1	Nucleo L476RG
-1	Romi Chassis w/ Motors, Encoders, Wheels, and Casters
-1	USB-A to USB-Mini B Cable
-
+Below is our complete hardware list, links are included below where applicable for specific parts:                           
+4	M2.5 x 8mm Standoff                                                                                                        
+4	M2.5 x 10mm Standoff                                                                                                       
+4	M2.5 x 30mm Standoff                                                                                                       
+4	M2.5 x 6mm Socket Head Cap Screw                                                                                           
+4	M2.5 x 8mm Socket Head Cap Screw                                                                                           
+4	M2.5 x 10mm Socket Head Cap Screw                                                                                          
+8	M2.5 Nylon Lock Nuts                                                                                                       
+8	M2.5 Nylon Washer                                                                                                          
+1	Acrylic Romi-to-Shoe Adapter (convenient but not necessary, custom part)                                                   
+1	Modified Shoe of Brian (w/o Bead or Resistors) (documentation for shoe of brian can be located online)                     
+1	Nucleo L476RG                                                                                                              
+1	USB-A to USB-Mini B Cable                                                                                                  
+Line sensor: https://www.pololu.com/product/4245                                                                             Nylon Spacers for Line Sensor Mounting: https://www.pololu.com/product/1976                                                  Screws for Line Sensor Mounting: https://www.pololu.com/product/1958                                                         Nuts for Line Sensor Mounting: https://www.pololu.com/product/1067                                                            
