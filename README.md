@@ -119,29 +119,29 @@ Located below is our multitasking structure for our final deliverable codebase. 
 
 ## Final_Path
 
-<img width="1570" height="441" alt="Final_Path FSM" src="https://github.com/user-attachments/assets/c606c81b-6a73-4862-b335-915e40eab50d" />
+<img alt="Final_Path FSM" src="https://github.com/user-attachments/assets/c606c81b-6a73-4862-b335-915e40eab50d" style="max-width: 100%; height: auto;" />
 
 ## task_estimate_state
 
-<img width="1044" height="362" alt="Estimate_state FSM" src="https://github.com/user-attachments/assets/13500fed-c0c5-4470-8632-254d949f45c8" />
+<img alt="Estimate_state FSM" src="https://github.com/user-attachments/assets/13500fed-c0c5-4470-8632-254d949f45c8" style="max-width: 100%; height: auto;" />
 
 ## task_follow_line
 
-<img width="983" height="398" alt="Line Follower FSM" src="https://github.com/user-attachments/assets/933aadd1-2fb6-4a95-a0ff-c9133cdc3e9b" />
+<img alt="Line Follower FSM" src="https://github.com/user-attachments/assets/933aadd1-2fb6-4a95-a0ff-c9133cdc3e9b" style="max-width: 100%; height: auto;" />
 
 ## task_motor
 
-<img width="1154" height="504" alt="Motor Task FSM" src="https://github.com/user-attachments/assets/5edf13a7-daaa-4d7b-bfe7-28bc122d3c75" />
+<img alt="Motor Task FSM" src="https://github.com/user-attachments/assets/5edf13a7-daaa-4d7b-bfe7-28bc122d3c75" style="max-width: 100%; height: auto;" />
 
 ## task_user
 
-<img width="1649" height="918" alt="UI Task FSM" src="https://github.com/user-attachments/assets/9ea05b08-3d83-408e-885f-8329492284ec" />
+<img alt="UI Task FSM" src="https://github.com/user-attachments/assets/9ea05b08-3d83-408e-885f-8329492284ec" style="max-width: 100%; height: auto;" />
 
 ## task_recover
 
-<img width="1215" height="425" alt="Recovery Task FSM" src="https://github.com/user-attachments/assets/77893347-119a-49c9-9861-2b632b715df8" />
+<img alt="Recovery Task FSM" src="https://github.com/user-attachments/assets/77893347-119a-49c9-9861-2b632b715df8" style="max-width: 100%; height: auto;" />
 
 ## task_pose_control
 
-<img width="1336" height="436" alt="Pose Controller FSM" src="https://github.com/user-attachments/assets/57ead805-d25f-4852-85e5-c2bf482eab9f" />
+<img alt="Pose Controller FSM" src="https://github.com/user-attachments/assets/57ead805-d25f-4852-85e5-c2bf482eab9f" style="max-width: 100%; height: auto;"/>
 
