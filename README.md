@@ -67,7 +67,7 @@ To help Romi better navigate its environment, we wanted to have it be able to lo
 
 task_generate_curve and task_follow_path
 
-In an attempt to create a very robust method of navigation when not following a line, we created a cubic spline curve generator and an accompanying task that recalculates ROMIs motor setpoints and target trajectory periodically. The curve generator uses parametrically defined points in x and y to compute coefficients a, b, c and d. These coefficients are fed the follow path task, which implements feed forward and feedback control to update motor setpoint values. We were unable to get these tasks to work reliably, and fell back to using a "point and shoot" pose controller to navigate planned trajectories.
+In an attempt to create a very robust method of navigation when not following a line, we created a cubic spline curve generator and an accompanying task that recalculates ROMIs motor setpoints and target trajectory periodically. The curve generator uses parametrically defined points in x and y to compute coefficients a, b, c and d. These coefficients are fed the follow path task, which implements feed forward and feedback control to update motor setpoint values. We were unable to get these tasks to work reliably, and fell back to using a "point and shoot" pose controller to navigate planned trajectories. Our parametrically defined points were graphed and split up using desmos, a free online graphing software to help better visualize the task at hand. A link to our desmos graph is included here: https://www.desmos.com/calculator/alpub6qhm4
 
 task_pose_control
 
