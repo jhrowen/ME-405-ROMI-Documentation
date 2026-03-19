@@ -47,10 +47,10 @@ Line sensor: https://www.pololu.com/product/4245
 Nylon Spacers for Line Sensor Mounting: https://www.pololu.com/product/1976                                                  
 Screws for Line Sensor Mounting: https://www.pololu.com/product/1958                                                         
 Nuts for Line Sensor Mounting: https://www.pololu.com/product/1067    
-Bump Switch: https://www.pololu.com/product/1405
-Motor Driver and Power Distriution Board: https://www.pololu.com/product/3543
-Encoder Pair Kit: https://www.pololu.com/product/3542
-Romi Chassis Kit: https://www.pololu.com/product/3504
-Adafruit BNO055 Absolute Orientation Sensor: https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview
-Rechargable Batteries: https://www.amazon.com/dp/B0CFWXSKDV?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+Bump Switch: https://www.pololu.com/product/1405                                                                             
+Motor Driver and Power Distriution Board: https://www.pololu.com/product/3543                                                
+Encoder Pair Kit: https://www.pololu.com/product/3542                                                                        
+Romi Chassis Kit: https://www.pololu.com/product/3504                                                                        
+Adafruit BNO055 Absolute Orientation Sensor: https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor/overview 
+Rechargable Batteries: https://www.amazon.com/dp/B0CFWXSKDV?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1                           
 HC-05 Blutooth Module (Unused): https://www.amazon.com/dp/B01MQKX7VP
